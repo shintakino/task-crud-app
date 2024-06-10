@@ -5,6 +5,7 @@
  */
 export const publicRoutes = [
     "/",
+    '/auth/new-verification', 
 ];
 
 /**
@@ -17,6 +18,7 @@ export const authRoutes = [
     "/auth/login",
     "/auth/register",
     "/auth/error",
+    "/auth/reset",
 ];
 /**
  * The prefix for API authentication routes
